@@ -1,4 +1,4 @@
-package com.example.hectoclashapp.utils.components
+package com.example.hectoclashapp.ui.theme.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons

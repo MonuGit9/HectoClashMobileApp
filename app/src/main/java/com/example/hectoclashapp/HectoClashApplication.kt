@@ -6,5 +6,7 @@ class HectoClashApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        // Initialize Socket Manager
+        SocketManager.initialize()
     }
 }
