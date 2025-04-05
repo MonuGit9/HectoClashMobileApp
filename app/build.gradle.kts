@@ -66,4 +66,39 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Jetpack Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.8.7")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.11.0") // For logging API requests
+
+    // Coil (Image loading)
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
+    // Hilt (Dependency Injection)
+    implementation("com.google.dagger:hilt-android:2.48.1")
+//    kapt("com.google.dagger:hilt-compiler:2.48.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
+    // Socket.IO for real-time gameplay
+    implementation("io.socket:socket.io-client:2.1.0")
+
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
+
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+    //Material Icons Extended
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+    implementation ("androidx.datastore:datastore-preferences:1.0.0")
+
+    implementation("com.google.code.gson:gson:2.10.1")
+
 }
